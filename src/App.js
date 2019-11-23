@@ -1,24 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
+import Brands from './pages/Brands'
+
+const mockData = [
+  { name: 'rando', id: '#1', img: 'amorelie.png' },
+  { name: 'Amorelie', id: '#1', img: 'amorelie.png' },
+  { name: 'Daim', id: '#2', img: 'daim.png' },
+  { name: 'Cadbury', id: '#3', img: 'cadbury.png' },
+  { name: 'Marabou', id: '#4', img: 'marabou.png' },
+  { name: 'Under Aurmour', id: '#5', img: 'underArmour.png' },
+  { name: 'm Design', id: '#6', img: 'mDesign.png' },
+  { name: 'Henkel', id: '#7', img: 'henkel.png' },
+]
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Brands mockData={mockData} />
     </div>
   );
 }
