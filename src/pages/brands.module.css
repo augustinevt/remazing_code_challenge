@@ -32,3 +32,26 @@
   display: grid;
   grid-row-gap: 10px
 }
+
+.brandSearchBar {
+  border: 1px grey solid;
+  padding: 8px;
+  display: flex;
+  border-radius: 5px;
+}
+
+.brandSearchBar input {
+  border: none;
+  background: lightGrey;
+}
+
+.brandSearchBar input:active {
+  width: 80%;
+  outline-color: orange;
+}
+
+.brandSearchBar input:focus {
+  width: 80%;
+  outline: none;
+  outline-color: orange;
+}

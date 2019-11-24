@@ -27,8 +27,8 @@ export default ({ mockData }) => {
             </select>
           </div>
 
-          <div style={{ 'box-shadow': '2px 2px 5px grey' }}>
-            <input onChange={(e) => setSearchTerm(e.target.value.toLowerCase())} />
+          <div className={styles.brandSearchBar}>
+            <input placeholder="Search brands..." onChange={(e) => setSearchTerm(e.target.value.toLowerCase())} />
           </div>
 
         </div>
