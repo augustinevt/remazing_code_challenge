@@ -1,8 +1,9 @@
 .titleBar {
-  border-bottom: solid;
-  background: white;
+  border-bottom: .5px solid lavender;
+  background: ghostwhite;
   text-align: left;
   padding: 20px 0px;
+  font-size: .9rem;
 }
 
 .options {
@@ -42,7 +43,7 @@
 
 .brandSearchBar input {
   border: none;
-  background: lightGrey;
+  background:  #f5f6fa;
   width: 100%;
 }
 
@@ -55,4 +56,10 @@
   width: 80%;
   outline: none;
   outline-color: orange;
+}
+
+.brandDropDownConatiner {
+  display: flex;
+  justify-content: left;
+  align-items: center;
 }

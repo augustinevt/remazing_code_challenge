@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import { faSearch } from "@fortawesome/free-solid-svg-icons";
+import { faSearch, faChevronUp} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 import BrandCard from '../components/BrandCard'
@@ -21,13 +21,9 @@ export default ({ mockData }) => {
 
       <div className={styles.brandGrid}>
         <div className={styles.brandSearchContainer}>
-            <div style={{ 'box-shadow': '2px 2px 5px grey' }}>
-
-            <select>
-              <option>
-                Your Brands
-              </option>
-            </select>
+          <div className={styles.brandDropDownConatiner}>
+            Your Brands
+            <FontAwesomeIcon icon={faChevronUp} />
           </div>
 
           <div className={styles.brandSearchBar}>
@@ -37,16 +33,16 @@ export default ({ mockData }) => {
 
         </div>
 
-      <div className={styles.brandLayout_cardContainer}>
-        {
-          brands.length > 0
-            ? brands.map((item) => (
-              <div key={item.id}>
-                <BrandCard data={item} />
-              </div>
-            ))
-            : 'Your search returned not results'
-        }
+        <div className={styles.brandLayout_cardContainer}>
+          {
+            brands.length > 0
+              ? brands.map((item) => (
+                <div key={item.id}>
+                  <BrandCard data={item} />
+                </div>
+              ))
+              : 'Your search returned not results'
+          }
       </div>
       </div>
 
