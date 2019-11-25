@@ -1,5 +1,8 @@
 import React, { useState } from 'react'
 
+import { faSearch } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+
 import BrandCard from '../components/BrandCard'
 
 import styles from './brands.module.css'
@@ -29,6 +32,7 @@ export default ({ mockData }) => {
 
           <div className={styles.brandSearchBar}>
             <input placeholder="Search brands..." onChange={(e) => setSearchTerm(e.target.value.toLowerCase())} />
+            <FontAwesomeIcon icon={faSearch} />
           </div>
 
         </div>

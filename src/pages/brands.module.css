@@ -43,6 +43,7 @@
 .brandSearchBar input {
   border: none;
   background: lightGrey;
+  width: 100%;
 }
 
 .brandSearchBar input:active {
