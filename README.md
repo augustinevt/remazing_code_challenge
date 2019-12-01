@@ -42,7 +42,7 @@ A note on the git history. It looks pretty sparse, sorry about that. I decided t
 
 5. made iterative rounds of updates to make styles match the mockup
 
-6. ported the CSS to the stage one and reconciled some of the differences
+6. ported the CSS to stage_one and reconciled some of the differences
 
 7. wrote documentation
 
