@@ -1,0 +1,94 @@
+.titleBar {
+  border-bottom: .5px solid lavender;
+  background: white;
+  text-align: left;
+  padding: var(--padding-lg) 0px;
+  font-size: .9rem;
+  padding: var(--padding-lg);
+  font-weight: 600;
+  color: var(--text-grey);
+}
+
+.mainGrid {
+  padding-top: var(--padding-sm);
+  grid-template-columns: 1fr;
+  display: grid;
+  grid-row-gap: var(--padding-sm);
+  padding: var(--padding-lg);
+}
+
+.searchContainer {
+  display: grid;
+  grid-template-columns: 24% calc(48.5%) ;
+  grid-column-gap: 1.8%;
+  margin-bottom: var(--padding-sm);
+}
+
+.searchBar {
+  border: 1px var(--icon-grey) solid;
+  padding: 8px;
+  display: flex;
+  border-radius: 5px;
+  justify-content: space-between;
+  color: blue;
+}
+
+.searchBar:hover {
+  border: 1px solid var(--brand-orange);
+}
+
+.searchBar input {
+  border: none;
+  background: var(--main-background);
+  width: 100%;
+}
+
+.searchBar input:active {
+  width: 80%;
+  outline-color: var(--brand-orange);
+}
+
+.searchBar input:focus {
+  width: 80%;
+  outline: none;
+  outline-color: var(--brand-orange);
+}
+
+.searchBar input::placeholder {
+  font-size: .8rem;
+}
+
+.dropDownContainer {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: var(--padding-lg);
+}
+
+.dropDownValue {
+  padding-right: 5px;
+  color: var(--text-grey);
+}
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-column-gap: var(--grid-gap);
+  grid-row-gap: var(--grid-gap);
+}
+
+.errorContainer {
+  grid-column: span 4;
+  width: 100%;
+  text-align: center;
+}
+
+@media screen and (max-width: 550px) {
+  .searchContainer {
+    display: block;
+  }
+  .dropDownContainer {
+    margin-bottom: var(--padding-lg);
+    padding-left: 0px;
+  }
+}

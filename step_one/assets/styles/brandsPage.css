@@ -1,0 +1,94 @@
+.brands_titleBar {
+  border-bottom: .5px solid lavender;
+  background: white;
+  text-align: left;
+  padding: var(--padding-lg) 0px;
+  font-size: .9rem;
+  padding: var(--padding-lg);
+  font-weight: 600;
+  color: var(--text-grey);
+}
+
+.brandLayout_cardWrapper {
+  justify-content: center;
+  display: flex;
+  border: solid;
+}
+
+.brands_cardContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
+
+.brands_searchContainer {
+  display: grid;
+  grid-template-columns: 24% calc(48.5%) ;
+  grid-column-gap: 1.8%;
+  margin-bottom: var(--padding-sm);
+}
+
+.brands_grid {
+  padding-top: var(--padding-sm);
+  grid-template-columns: 1fr;
+  display: grid;
+  grid-row-gap: var(--padding-sm);
+  padding: var(--padding-lg);
+}
+
+.brands_searchBar {
+  border: 1px lightGrey solid;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+.brands_searchBar:hover {
+  border: 1px orange solid;
+}
+
+.brands_searchBar input {
+  border: none;
+  background: var(--main-background);
+  width: 100%;
+}
+
+.brands_searchBar input:active {
+  width: 80%;
+  outline-color: var(--brand-orange);
+}
+
+.brands_searchBar input:focus {
+  width: 80%;
+  outline: none;
+  outline-color: var(--brand-orange);
+}
+
+.brands_searchBar input::placeholder {
+  font-size: .8rem;
+}
+
+.brands_dropDownContainer {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: var(--padding-lg);
+}
+
+.brands_dropDownValue{
+  padding-right: 5px;
+  color: var(--text-grey);
+}
+
+
+@media screen and (max-width: 550px) {
+  .brands_searchContainer {
+    display: block;
+  }
+  .brands_dropDownContainer {
+    margin-bottom: var(--padding-lg);
+    padding-left: 0px;
+  }
+}

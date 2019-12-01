@@ -1,0 +1,48 @@
+:root {
+  /* spacing */
+  --padding-lg: 20px;
+  --padding-sm: 10px;
+  --grid-gap: 30px;
+
+  /* colors */
+  --brand-orange: #f87b00;
+  --main-background: #f5f6fa;
+  --text-grey: #4e546b;
+  --icon-grey: #a5acb5;
+}
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background: var(--main-background);
+}
+
+.body {
+  background: grey;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+

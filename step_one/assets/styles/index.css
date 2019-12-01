@@ -1,0 +1,34 @@
+@import url('./brandsPage.css');
+@import url('./brandCard.css');
+
+:root {
+  /* spacing */
+  --padding-lg: 20px;
+  --padding-sm: 10px;
+  --grid-gap: 30px;
+
+  /* colors */
+  --brand-orange: #f87b00;
+  --main-background: #f5f6fa;
+  --text-grey: #4e546b;
+  --icon-grey: #a5acb5;
+}
+
+body {
+  background: #f5f6fa;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+i {
+  color: var(--icon-grey);
+}

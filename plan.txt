@@ -1,0 +1,34 @@
+[x] sketch layout
+[x] write html overall
+[x] fill in HTML with more content
+[x] gather images
+[] research css framework
+
+  decisions
+    - on the js framework
+    - complexity
+    - goals of the technology
+
+  semantic UI
+    integrates well with the framework I intend to use
+
+    semantic UI looks very popular on reddit
+    46.8k stars on github
+
+  tailwind
+    17k stars on github
+
+
+
+
+
+///
+
+[x] setup react app with airbnb linting
+[x] iteration compoenent level
+[x] move data to state
+[x] search function
+
+////
+
+
