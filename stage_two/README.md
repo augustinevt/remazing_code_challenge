@@ -1,7 +1,7 @@
 # Remazing Code Challenge
 
 #### description:
-This project is a official response to a coding challenge prompt provided by Remazing
+This project is a official response to stage two a coding challenge prompt provided by Remazing
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Uses CSS modules, Font Awesome.
 
@@ -24,6 +24,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 Please see [Notes]().
 
-:tadah: Thanks! :tadah:
+🎉 Thanks! 🎉
 
 

@@ -1,9 +1,7 @@
 # Remazing Code Challenge
 
 #### description:
-This project is a official response to a coding challenge prompt provided by Remazing
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Uses Fontawesome for Icons.
+This project is a official response to stage one of a coding challenge prompt provided by Remazing
 
 ### To view locally:
 
@@ -13,4 +11,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 `$ open index.html`
 
-:tadah: Thanks! :tadah:
+🎉 Thanks! 🎉
