@@ -22,7 +22,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ### To run tests
 
-Please see [Notes]().
+Please see [Notes](https://github.com/augustinevt/remazing_code_challenge/blob/master/README.md).
 
 🎉 Thanks! 🎉
 
