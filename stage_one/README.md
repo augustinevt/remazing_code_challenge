@@ -5,7 +5,7 @@ This project is a official response to stage one of a coding challenge prompt pr
 
 ### To view locally:
 
-`$ git clone`
+`$ git clone https://github.com/augustinevt/remazing_code_challenge.git`
 
 `$ cd remazing_code_challenge/stage_one`
 
